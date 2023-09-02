@@ -1,0 +1,2539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8119033449524576A747E886 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 917A9A6385874F21AE329E12 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		88A02F8A06CA43378F21C5E9 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 70C31D85FC1B46AF8F43E9A0 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				8A8EB6E6EDB44D60B8EB0FCA /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		90B64C53D1204DABB1A91F10 /* package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9F7518711FAD4D65840789D5 /* Build configuration list for PBXAggregateTarget "package" */;
+			buildPhases = (
+				571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				9109728B0172446CAFB05ACD /* PBXTargetDependency */,
+			);
+			name = package;
+			productName = package;
+		};
+		B341E48E8EFE4E5CA2061331 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C2FC004AB6DE42CF893DB8EB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				2C3902B0EE07D6F6EC5AC26A /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				EBB5D8CCF8D341A785DE6714 /* PBXTargetDependency */,
+				76706117146140FCB858A9E3 /* PBXTargetDependency */,
+				28E13FD579E044238CEE9B80 /* PBXTargetDependency */,
+				19818A0656B447B38F701B69 /* PBXTargetDependency */,
+				F2BC836FF53E490FBD58A89E /* PBXTargetDependency */,
+				BF7ABD391E8D468CBA5BEF81 /* PBXTargetDependency */,
+				4BC409AC62C64690A754616B /* PBXTargetDependency */,
+				CB88234F1E514DD59E7D83A5 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		B667A5CDF22044599694C79E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 45B6E09507B845AB8D5AEC29 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5FC2D8D9F5EBD19B9D502EC0 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		046250C51C304510BEFA6949 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */ = {isa = PBXBuildFile; fileRef = 551EE50891B24E0C85D23E55 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */; };
+		08E87535EEFD4FDF85445252 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 118511930D6A4FD8BAAEF67A /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/CMakeLists.txt */; };
+		1E2A99D754DA48C1B76BB4D7 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXBuildFile; fileRef = 27A66B59C8D14AD3AD6E6307 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */; };
+		220B90320A1C45A7834E5942 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXBuildFile; fileRef = 713E9B37CCE44BF699100B96 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */; };
+		25715566A6BB419B856E0592 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/toFloat.cpp */ = {isa = PBXBuildFile; fileRef = 426A77BCF1EC45D7A73CA1B4 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/toFloat.cpp */; };
+		2CF6A92C23304407B12788E6 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */ = {isa = PBXBuildFile; fileRef = 354E99335AD3481AB99802B2 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */; };
+		3DC4F18FDECF4AB6B6857F0B /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXBuildFile; fileRef = 3B77E94561DE436C87CF87A0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */; };
+		4B362578FE8C4FB488889DDC /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */ = {isa = PBXBuildFile; fileRef = 47E7C78B4057449FB5FE07EF /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */; };
+		5334176B85B849169CEB0647 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXBuildFile; fileRef = 7906F3F5C0494FE9AC566AE9 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */; };
+		535FBFBA91E64BA58701509E /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */ = {isa = PBXBuildFile; fileRef = 35980C28CA6F4688BF7F149D /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */; };
+		547C686EE54D4DE084186F77 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/half.cpp */ = {isa = PBXBuildFile; fileRef = A1EDDD70F7574E9D9639D6D0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/half.cpp */; };
+		5A6FF71ACB194702998B4CF9 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXBuildFile; fileRef = 2E9A9F420554491083F6D2ED /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */; };
+		61F490E5313A4E2AB91E9D93 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AA668AD2A707484E95425249 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt */; };
+		64B6632D964940818FBBF609 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */ = {isa = PBXBuildFile; fileRef = 72E016A5787B497A90B0304C /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */; };
+		78512CE0C7FA48EF968F2261 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h.rule */ = {isa = PBXBuildFile; fileRef = 78F28DC3761345D592B797BD /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h.rule */; };
+		857D64628E0345F5BC8DC934 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F2E59A6E190B4821956D5548 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */; };
+		9572024503E64396AFA7D06A /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 5F9B467D556C4602A8AEC052 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/CMakeLists.txt */; };
+		9F189DEAD85D4DA7A0C1C351 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h.rule */ = {isa = PBXBuildFile; fileRef = 22BEA961671F4F7FA6E8E0B4 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h.rule */; };
+		A6785F062E9449C2A318F092 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */ = {isa = PBXBuildFile; fileRef = F119054B6D0042218F96C5E0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */; };
+		A87D4039942E47E39B510258 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9C0CFAF5ED634A929F31506E /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */; };
+		ABACFD7D07224C7D86E663BC /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 7E480A9D49F14EC7BED51071 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */; };
+		B8201C217BCE42F19731CD78 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AE064DB5911144BF8035609B /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt */; };
+		C3EA561307574BE89DA0E5A7 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */ = {isa = PBXBuildFile; fileRef = 50CFC55E831E48E8B460C667 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */; };
+		C98881F1303D4929A304CEAF /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */ = {isa = PBXBuildFile; fileRef = E9A75F10345D461FA9BA9285 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */; };
+		CB76C400DF9948EDB238CEB3 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXBuildFile; fileRef = E522113AE05D4628BA9F9A71 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */; };
+		DA2E01C8C9FF41939A9B51DF /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */ = {isa = PBXBuildFile; fileRef = 50ECC08B114C453D9DDF8975 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */; };
+		E1B8D08722574C9B8BD22919 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */ = {isa = PBXBuildFile; fileRef = B9CD0A7C00064E2C903A5B38 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */; };
+		E627CA3BC2334FE88A3B9BD3 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/eLut.cpp */ = {isa = PBXBuildFile; fileRef = 20CEA36DC8D44AADBB026F12 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/eLut.cpp */; };
+		F8A0EDEF7FC7497E821EEDBC /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXBuildFile; fileRef = C026B3313B3644B59FB5020D /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */; };
+		F9B23DBEF3A94B3894B9FFF1 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXBuildFile; fileRef = 7E96721C1FEA4B4494F51A16 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */; };
+		FA22E204950B4EC2A39B9188 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */ = {isa = PBXBuildFile; fileRef = 5DCD62DDD0294FFE86F09558 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		13EF10748A4145A88C63C851 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		4DECE0B6E8BE4CA3A1D1E403 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		88F33D30120B4D8BBA82F024 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FBC4E70B32D24DA684AC09F6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0124BB220E164F45A4725EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791F26FE7CAF4036A45EB317;
+			remoteInfo = toFloat;
+		};
+		0574E53ADE814299A74BB804 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446187029C0348959D380A28;
+			remoteInfo = Iex;
+		};
+		0D0887146B014F088FB1CEEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B341E48E8EFE4E5CA2061331;
+			remoteInfo = ALL_BUILD;
+		};
+		1442C9664CA64F67BC441BFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B341E48E8EFE4E5CA2061331;
+			remoteInfo = ALL_BUILD;
+		};
+		29822B2E35604F799D256218 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C69463E94DF2420089B6FE93;
+			remoteInfo = eLut;
+		};
+		4EE070C918A54FCF936A3054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D642DCE0070496B883616DC;
+			remoteInfo = IexMath;
+		};
+		52ABCF7D183F460C94F6879E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446187029C0348959D380A28;
+			remoteInfo = Iex;
+		};
+		772CB56520BD4DE8A0F432E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446187029C0348959D380A28;
+			remoteInfo = Iex;
+		};
+		7C86C0A718E6444E889A3185 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D50D11080044C3BA738A50;
+			remoteInfo = IlmThread;
+		};
+		91C30C99AB374554AC0C1BAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C69463E94DF2420089B6FE93;
+			remoteInfo = eLut;
+		};
+		ACC7EC3A83D9459D8075D87C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 446187029C0348959D380A28;
+			remoteInfo = Iex;
+		};
+		B7525AE15BCE443B9BF76922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B667A5CDF22044599694C79E;
+			remoteInfo = ZERO_CHECK;
+		};
+		CE3C00FFA0B341B785668DA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67C93DB09A0243A6980F68E4;
+			remoteInfo = Half;
+		};
+		D179458BD6A742DC86E7B02B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B6E462A00A4516A7D8DF73;
+			remoteInfo = Imath;
+		};
+		E1425AA11C4A4169841E862A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E73D65779524744B2322639 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791F26FE7CAF4036A45EB317;
+			remoteInfo = toFloat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		118511930D6A4FD8BAAEF67A /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Imath/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		20CEA36DC8D44AADBB026F12 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/eLut.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = eLut.cpp; path = Half/eLut.cpp; sourceTree = SOURCE_ROOT; };
+		22BEA961671F4F7FA6E8E0B4 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = eLut.h.rule; path = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h.rule"; sourceTree = "<absolute>"; };
+		27A66B59C8D14AD3AD6E6307 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosix.cpp; path = IlmThread/IlmThreadSemaphorePosix.cpp; sourceTree = SOURCE_ROOT; };
+		2E9A9F420554491083F6D2ED /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphorePosixCompat.cpp; path = IlmThread/IlmThreadSemaphorePosixCompat.cpp; sourceTree = SOURCE_ROOT; };
+		354E99335AD3481AB99802B2 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThread.cpp; path = IlmThread/IlmThread.cpp; sourceTree = SOURCE_ROOT; };
+		35980C28CA6F4688BF7F149D /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexBaseExc.cpp; path = Iex/IexBaseExc.cpp; sourceTree = SOURCE_ROOT; };
+		3B77E94561DE436C87CF87A0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutex.cpp; path = IlmThread/IlmThreadMutex.cpp; sourceTree = SOURCE_ROOT; };
+		41F9CE5DD29F4AC5B0E02441 /* eLut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = eLut; sourceTree = BUILT_PRODUCTS_DIR; };
+		426A77BCF1EC45D7A73CA1B4 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/toFloat.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = toFloat.cpp; path = Half/toFloat.cpp; sourceTree = SOURCE_ROOT; };
+		463DC288A5FE4150B2A1C51B /* IexMath */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIexMath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E7C78B4057449FB5FE07EF /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathRandom.cpp; path = Imath/ImathRandom.cpp; sourceTree = SOURCE_ROOT; };
+		50CFC55E831E48E8B460C667 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPool.cpp; path = IlmThread/IlmThreadPool.cpp; sourceTree = SOURCE_ROOT; };
+		50ECC08B114C453D9DDF8975 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexMathFpu.cpp; path = IexMath/IexMathFpu.cpp; sourceTree = SOURCE_ROOT; };
+		551EE50891B24E0C85D23E55 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathColorAlgo.cpp; path = Imath/ImathColorAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		5DCD62DDD0294FFE86F09558 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathShear.cpp; path = Imath/ImathShear.cpp; sourceTree = SOURCE_ROOT; };
+		5F9B467D556C4602A8AEC052 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Iex/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		713E9B37CCE44BF699100B96 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadMutexPosix.cpp; path = IlmThread/IlmThreadMutexPosix.cpp; sourceTree = SOURCE_ROOT; };
+		72E016A5787B497A90B0304C /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathFun.cpp; path = Imath/ImathFun.cpp; sourceTree = SOURCE_ROOT; };
+		73206031FEE9484C93FB75C0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		768B492859724370B1AFAB74 /* Iex */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIex.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		78F28DC3761345D592B797BD /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h.rule */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = toFloat.h.rule; path = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h.rule"; sourceTree = "<absolute>"; };
+		7906F3F5C0494FE9AC566AE9 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadSemaphore.cpp; path = IlmThread/IlmThreadSemaphore.cpp; sourceTree = SOURCE_ROOT; };
+		7E480A9D49F14EC7BED51071 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Half/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7E6ECA64933E49779353C997 /* IlmThread */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libIlmThread.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E96721C1FEA4B4494F51A16 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexThrowErrnoExc.cpp; path = Iex/IexThrowErrnoExc.cpp; sourceTree = SOURCE_ROOT; };
+		9C0CFAF5ED634A929F31506E /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Half/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A1EDDD70F7574E9D9639D6D0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/half.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = half.cpp; path = Half/half.cpp; sourceTree = SOURCE_ROOT; };
+		AA668AD2A707484E95425249 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = IexMath/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AE064DB5911144BF8035609B /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = IlmThread/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B9CD0A7C00064E2C903A5B38 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathVec.cpp; path = Imath/ImathVec.cpp; sourceTree = SOURCE_ROOT; };
+		C026B3313B3644B59FB5020D /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IlmThreadPosix.cpp; path = IlmThread/IlmThreadPosix.cpp; sourceTree = SOURCE_ROOT; };
+		D8EF97C41B8243279AC28449 /* Imath */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libImath.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFEC534D7D9C4046A0F4DDC1 /* toFloat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = toFloat; sourceTree = BUILT_PRODUCTS_DIR; };
+		E24C3789A8BA43A29FD8BE83 /* Half */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHalf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E522113AE05D4628BA9F9A71 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathMatrixAlgo.cpp; path = Imath/ImathMatrixAlgo.cpp; sourceTree = SOURCE_ROOT; };
+		E9A75F10345D461FA9BA9285 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ImathBox.cpp; path = Imath/ImathBox.cpp; sourceTree = SOURCE_ROOT; };
+		F119054B6D0042218F96C5E0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = IexMathFloatExc.cpp; path = IexMath/IexMathFloatExc.cpp; sourceTree = SOURCE_ROOT; };
+		F2E59A6E190B4821956D5548 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = Half/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		207904B15B674AD0B1819271 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743F6EA0F6AD4FC0A8E27233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		754C9D721975436DAF12C7D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E976FAB3C974E229C7C97B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C03047281F461B99EACC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE98CB322B874D818B586D9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF3B0654CF04F59B4515E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0834B211F69A4D699A0154F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		173FA0B0D2D349CB8DA7C003 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				354E99335AD3481AB99802B2 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */,
+				3B77E94561DE436C87CF87A0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */,
+				713E9B37CCE44BF699100B96 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */,
+				50CFC55E831E48E8B460C667 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */,
+				C026B3313B3644B59FB5020D /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */,
+				7906F3F5C0494FE9AC566AE9 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */,
+				27A66B59C8D14AD3AD6E6307 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				2E9A9F420554491083F6D2ED /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1CB9884109D642589573575C /* IexMath */ = {
+			isa = PBXGroup;
+			children = (
+				FACD6AD1CE5B4B45BB45D771 /* Source Files */,
+				AA668AD2A707484E95425249 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/CMakeLists.txt */,
+			);
+			name = IexMath;
+			sourceTree = "<group>";
+		};
+		1DE3BF6BA21746C59CFE393F /* Iex */ = {
+			isa = PBXGroup;
+			children = (
+				64F8CA5BA22C44349BCD94B7 /* Source Files */,
+				5F9B467D556C4602A8AEC052 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/CMakeLists.txt */,
+			);
+			name = Iex;
+			sourceTree = "<group>";
+		};
+		36CB8D0DB75C46F594D9A26A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				426A77BCF1EC45D7A73CA1B4 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/toFloat.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3A1748134CD7417A8CEE2D68 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				20CEA36DC8D44AADBB026F12 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/eLut.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3BABCF71FF5A4B6AAB9FB71F /* eLut */ = {
+			isa = PBXGroup;
+			children = (
+				3A1748134CD7417A8CEE2D68 /* Source Files */,
+				9C0CFAF5ED634A929F31506E /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */,
+			);
+			name = eLut;
+			sourceTree = "<group>";
+		};
+		5E46E3E7B00B4FE793E2B15C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+				22BEA961671F4F7FA6E8E0B4 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h.rule */,
+				78F28DC3761345D592B797BD /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h.rule */,
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		64F8CA5BA22C44349BCD94B7 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				35980C28CA6F4688BF7F149D /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */,
+				7E96721C1FEA4B4494F51A16 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		66001B7C3B3A4FE2B8FFD4B3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		66B6E807F11F4C45B7459BBB /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1EDDD70F7574E9D9639D6D0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/half.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7E710668346240469C0C53B1 = {
+			isa = PBXGroup;
+			children = (
+				A7DE1BC256854B0F82C28E41 /* ALL_BUILD */,
+				CBF341F20022419D88ADB035 /* ext */,
+				E0BAC9ECDFA34CCF9B6DEA7F /* Products */,
+				0834B211F69A4D699A0154F4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DAEAD3B442F4AD790E2FA10 /* Imath */ = {
+			isa = PBXGroup;
+			children = (
+				CA2D2533C16343F8A573E066 /* Source Files */,
+				118511930D6A4FD8BAAEF67A /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/CMakeLists.txt */,
+			);
+			name = Imath;
+			sourceTree = "<group>";
+		};
+		A7DE1BC256854B0F82C28E41 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				66001B7C3B3A4FE2B8FFD4B3 /* CMake Rules */,
+				73206031FEE9484C93FB75C0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B651E7C0360B4994919419AD /* IlmThread */ = {
+			isa = PBXGroup;
+			children = (
+				173FA0B0D2D349CB8DA7C003 /* Source Files */,
+				AE064DB5911144BF8035609B /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/CMakeLists.txt */,
+			);
+			name = IlmThread;
+			sourceTree = "<group>";
+		};
+		CA2D2533C16343F8A573E066 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9A75F10345D461FA9BA9285 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */,
+				551EE50891B24E0C85D23E55 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */,
+				72E016A5787B497A90B0304C /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */,
+				E522113AE05D4628BA9F9A71 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */,
+				47E7C78B4057449FB5FE07EF /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */,
+				5DCD62DDD0294FFE86F09558 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */,
+				B9CD0A7C00064E2C903A5B38 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CBF341F20022419D88ADB035 /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				3BABCF71FF5A4B6AAB9FB71F /* eLut */,
+				DF9F39F37723497BBCFDE5C4 /* toFloat */,
+				CF67D06E8C4043DF9035FFD0 /* Half */,
+				1DE3BF6BA21746C59CFE393F /* Iex */,
+				1CB9884109D642589573575C /* IexMath */,
+				9DAEAD3B442F4AD790E2FA10 /* Imath */,
+				B651E7C0360B4994919419AD /* IlmThread */,
+			);
+			name = ext;
+			sourceTree = "<group>";
+		};
+		CF67D06E8C4043DF9035FFD0 /* Half */ = {
+			isa = PBXGroup;
+			children = (
+				66B6E807F11F4C45B7459BBB /* Source Files */,
+				5E46E3E7B00B4FE793E2B15C /* CMake Rules */,
+				7E480A9D49F14EC7BED51071 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */,
+			);
+			name = Half;
+			sourceTree = "<group>";
+		};
+		DF9F39F37723497BBCFDE5C4 /* toFloat */ = {
+			isa = PBXGroup;
+			children = (
+				36CB8D0DB75C46F594D9A26A /* Source Files */,
+				F2E59A6E190B4821956D5548 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/CMakeLists.txt */,
+			);
+			name = toFloat;
+			sourceTree = "<group>";
+		};
+		E0BAC9ECDFA34CCF9B6DEA7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E24C3789A8BA43A29FD8BE83 /* Half */,
+				768B492859724370B1AFAB74 /* Iex */,
+				463DC288A5FE4150B2A1C51B /* IexMath */,
+				7E6ECA64933E49779353C997 /* IlmThread */,
+				D8EF97C41B8243279AC28449 /* Imath */,
+				41F9CE5DD29F4AC5B0E02441 /* eLut */,
+				DFEC534D7D9C4046A0F4DDC1 /* toFloat */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FACD6AD1CE5B4B45BB45D771 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F119054B6D0042218F96C5E0 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */,
+				50ECC08B114C453D9DDF8975 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		446187029C0348959D380A28 /* Iex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6E91D83E7644D4B000050D /* Build configuration list for PBXNativeTarget "Iex" */;
+			buildPhases = (
+				CFCF50C76C7D4028AF98CE1F /* Sources */,
+				207904B15B674AD0B1819271 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Iex;
+			productName = Iex;
+			productReference = 768B492859724370B1AFAB74 /* Iex */;
+			productType = "com.apple.product-type.library.static";
+		};
+		51B6E462A00A4516A7D8DF73 /* Imath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48D9545E6A0D47AF846752AD /* Build configuration list for PBXNativeTarget "Imath" */;
+			buildPhases = (
+				68F54CE98EA840ADB612DBAB /* Sources */,
+				9E976FAB3C974E229C7C97B2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FDE5777BF5B4A6D910C002D /* PBXTargetDependency */,
+			);
+			name = Imath;
+			productName = Imath;
+			productReference = D8EF97C41B8243279AC28449 /* Imath */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5D642DCE0070496B883616DC /* IexMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7DFBB3391F41A88C6F7B47 /* Build configuration list for PBXNativeTarget "IexMath" */;
+			buildPhases = (
+				96E4A3323EB24A61BBE474E4 /* Sources */,
+				FAF3B0654CF04F59B4515E1B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3022C1A4FE64DF9A4B6E42D /* PBXTargetDependency */,
+			);
+			name = IexMath;
+			productName = IexMath;
+			productReference = 463DC288A5FE4150B2A1C51B /* IexMath */;
+			productType = "com.apple.product-type.library.static";
+		};
+		67C93DB09A0243A6980F68E4 /* Half */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4DCE69DDC74E50B3AA3445 /* Build configuration list for PBXNativeTarget "Half" */;
+			buildPhases = (
+				73B9D288E6C980977C3B2F1B /* Generate Half/eLut.h */,
+				CD988C5FD159F10A8C33F12B /* Generate Half/toFloat.h */,
+				B7A3FA3A6EBA42EEA3EE464E /* Sources */,
+				754C9D721975436DAF12C7D0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32B4356A105C48CC890DFD9D /* PBXTargetDependency */,
+				C190632A08CD4B19B8A2CEB7 /* PBXTargetDependency */,
+			);
+			name = Half;
+			productName = Half;
+			productReference = E24C3789A8BA43A29FD8BE83 /* Half */;
+			productType = "com.apple.product-type.library.static";
+		};
+		791F26FE7CAF4036A45EB317 /* toFloat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E1165220334C8AAA955D18 /* Build configuration list for PBXNativeTarget "toFloat" */;
+			buildPhases = (
+				4ACDB2680356402B849E9171 /* Sources */,
+				D9C03047281F461B99EACC26 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = toFloat;
+			productName = toFloat;
+			productReference = DFEC534D7D9C4046A0F4DDC1 /* toFloat */;
+			productType = "com.apple.product-type.tool";
+		};
+		83D50D11080044C3BA738A50 /* IlmThread */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B770D1B073A54E0EA84B55A5 /* Build configuration list for PBXNativeTarget "IlmThread" */;
+			buildPhases = (
+				316419E15A734C6AB525FB8A /* Sources */,
+				743F6EA0F6AD4FC0A8E27233 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E479F058337147B899A5FD23 /* PBXTargetDependency */,
+			);
+			name = IlmThread;
+			productName = IlmThread;
+			productReference = 7E6ECA64933E49779353C997 /* IlmThread */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C69463E94DF2420089B6FE93 /* eLut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CFA8C6E5A91427F97068144 /* Build configuration list for PBXNativeTarget "eLut" */;
+			buildPhases = (
+				6648B8A6BB194B908254F71E /* Sources */,
+				DE98CB322B874D818B586D9F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eLut;
+			productName = eLut;
+			productReference = 41F9CE5DD29F4AC5B0E02441 /* eLut */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E73D65779524744B2322639 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 7DC855ABA8994B56808477A8 /* Build configuration list for PBXProject "ilmbase" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4DECE0B6E8BE4CA3A1D1E403 /* Debug */,
+				FBC4E70B32D24DA684AC09F6 /* Release */,
+				13EF10748A4145A88C63C851 /* MinSizeRel */,
+				88F33D30120B4D8BBA82F024 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 7E710668346240469C0C53B1;
+			projectDirPath = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase";
+			projectRoot = "";
+			targets = (
+				B341E48E8EFE4E5CA2061331 /* ALL_BUILD */,
+				67C93DB09A0243A6980F68E4 /* Half */,
+				446187029C0348959D380A28 /* Iex */,
+				5D642DCE0070496B883616DC /* IexMath */,
+				83D50D11080044C3BA738A50 /* IlmThread */,
+				51B6E462A00A4516A7D8DF73 /* Imath */,
+				8119033449524576A747E886 /* RUN_TESTS */,
+				B667A5CDF22044599694C79E /* ZERO_CHECK */,
+				C69463E94DF2420089B6FE93 /* eLut */,
+				88A02F8A06CA43378F21C5E9 /* install */,
+				90B64C53D1204DABB1A91F10 /* package */,
+				791F26FE7CAF4036A45EB317 /* toFloat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		003C8D08B0008F35F218E126 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		2C3902B0EE07D6F6EC5AC26A /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		571234464C2A5D0D43F1AB42 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/cpack -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME --config ./CPackConfig.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		5FC2D8D9F5EBD19B9D502EC0 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  make -f /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  make -f /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  make -f /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  make -f /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		661D9C604B3B91332E7543CC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		73B9D288E6C980977C3B2F1B /* Generate Half/eLut.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/Debug/eLut","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/MinSizeRel/eLut","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/RelWithDebInfo/eLut","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/Release/eLut"			);
+			name = "Generate Half/eLut.h";
+			outputPaths = (
+"/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/Debug/eLut > /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/Release/eLut > /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/MinSizeRel/eLut > /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/RelWithDebInfo/eLut > /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/eLut.h
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		910A41151295C5F9742C25BD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase
+  /opt/homebrew/Cellar/cmake/3.24.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CD988C5FD159F10A8C33F12B /* Generate Half/toFloat.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/Debug/toFloat","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/MinSizeRel/toFloat","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/RelWithDebInfo/toFloat","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/Release/toFloat"			);
+			name = "Generate Half/toFloat.h";
+			outputPaths = (
+"/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/Debug/toFloat > /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/Release/toFloat > /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/MinSizeRel/toFloat > /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/RelWithDebInfo/toFloat > /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half/toFloat.h
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		316419E15A734C6AB525FB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF6A92C23304407B12788E6 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThread.cpp */,
+				3DC4F18FDECF4AB6B6857F0B /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutex.cpp */,
+				220B90320A1C45A7834E5942 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadMutexPosix.cpp */,
+				C3EA561307574BE89DA0E5A7 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPool.cpp */,
+				F8A0EDEF7FC7497E821EEDBC /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadPosix.cpp */,
+				5334176B85B849169CEB0647 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphore.cpp */,
+				1E2A99D754DA48C1B76BB4D7 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosix.cpp */,
+				5A6FF71ACB194702998B4CF9 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread/IlmThreadSemaphorePosixCompat.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ACDB2680356402B849E9171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25715566A6BB419B856E0592 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/toFloat.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6648B8A6BB194B908254F71E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E627CA3BC2334FE88A3B9BD3 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/eLut.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F54CE98EA840ADB612DBAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C98881F1303D4929A304CEAF /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathBox.cpp */,
+				046250C51C304510BEFA6949 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathColorAlgo.cpp */,
+				64B6632D964940818FBBF609 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathFun.cpp */,
+				CB76C400DF9948EDB238CEB3 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathMatrixAlgo.cpp */,
+				4B362578FE8C4FB488889DDC /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathRandom.cpp */,
+				FA22E204950B4EC2A39B9188 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathShear.cpp */,
+				E1B8D08722574C9B8BD22919 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathVec.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96E4A3323EB24A61BBE474E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6785F062E9449C2A318F092 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFloatExc.cpp */,
+				DA2E01C8C9FF41939A9B51DF /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath/IexMathFpu.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7A3FA3A6EBA42EEA3EE464E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547C686EE54D4DE084186F77 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/half.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCF50C76C7D4028AF98CE1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535FBFBA91E64BA58701509E /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexBaseExc.cpp */,
+				F9B23DBEF3A94B3894B9FFF1 /* /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexThrowErrnoExc.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19818A0656B447B38F701B69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446187029C0348959D380A28 /* Iex */;
+			targetProxy = 772CB56520BD4DE8A0F432E4 /* PBXContainerItemProxy */;
+		};
+		28E13FD579E044238CEE9B80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67C93DB09A0243A6980F68E4 /* Half */;
+			targetProxy = CE3C00FFA0B341B785668DA9 /* PBXContainerItemProxy */;
+		};
+		2FDE5777BF5B4A6D910C002D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446187029C0348959D380A28 /* Iex */;
+			targetProxy = 52ABCF7D183F460C94F6879E /* PBXContainerItemProxy */;
+		};
+		32B4356A105C48CC890DFD9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C69463E94DF2420089B6FE93 /* eLut */;
+			targetProxy = 91C30C99AB374554AC0C1BAE /* PBXContainerItemProxy */;
+		};
+		4BC409AC62C64690A754616B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D50D11080044C3BA738A50 /* IlmThread */;
+			targetProxy = 7C86C0A718E6444E889A3185 /* PBXContainerItemProxy */;
+		};
+		76706117146140FCB858A9E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791F26FE7CAF4036A45EB317 /* toFloat */;
+			targetProxy = 0124BB220E164F45A4725EF7 /* PBXContainerItemProxy */;
+		};
+		8A8EB6E6EDB44D60B8EB0FCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B341E48E8EFE4E5CA2061331 /* ALL_BUILD */;
+			targetProxy = 1442C9664CA64F67BC441BFE /* PBXContainerItemProxy */;
+		};
+		9109728B0172446CAFB05ACD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B341E48E8EFE4E5CA2061331 /* ALL_BUILD */;
+			targetProxy = 0D0887146B014F088FB1CEEB /* PBXContainerItemProxy */;
+		};
+		BF7ABD391E8D468CBA5BEF81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51B6E462A00A4516A7D8DF73 /* Imath */;
+			targetProxy = D179458BD6A742DC86E7B02B /* PBXContainerItemProxy */;
+		};
+		C190632A08CD4B19B8A2CEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791F26FE7CAF4036A45EB317 /* toFloat */;
+			targetProxy = E1425AA11C4A4169841E862A /* PBXContainerItemProxy */;
+		};
+		C3022C1A4FE64DF9A4B6E42D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446187029C0348959D380A28 /* Iex */;
+			targetProxy = 0574E53ADE814299A74BB804 /* PBXContainerItemProxy */;
+		};
+		CB88234F1E514DD59E7D83A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B667A5CDF22044599694C79E /* ZERO_CHECK */;
+			targetProxy = B7525AE15BCE443B9BF76922 /* PBXContainerItemProxy */;
+		};
+		E479F058337147B899A5FD23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 446187029C0348959D380A28 /* Iex */;
+			targetProxy = ACC7EC3A83D9459D8075D87C /* PBXContainerItemProxy */;
+		};
+		EBB5D8CCF8D341A785DE6714 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C69463E94DF2420089B6FE93 /* eLut */;
+			targetProxy = 29822B2E35604F799D256218 /* PBXContainerItemProxy */;
+		};
+		F2BC836FF53E490FBD58A89E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D642DCE0070496B883616DC /* IexMath */;
+			targetProxy = 4EE070C918A54FCF936A3054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00C501D7C17047E4948089C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IlmThread","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register      -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmThread;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IlmThread";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		08011A86FF38433583AC774C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eLut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1A65AABD418441CF986414E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		1D2B9D7369224475A35F6A22 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		220E038E12BD4E49AB1692AD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22559D9F328C43E3864BBC22 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register        -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Imath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Imath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2318F7A7D341409AA8C1088F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		24D01E0D329441B2B8A5D975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Imath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Imath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		27A86B4051224D279E19D0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Iex;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Iex";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		31C4237A2DF843599B08DCD5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		359B065206644AA1B38CDA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Half;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		37DF2EA33FE94054B248A086 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3A5C2C6BB5B4465F8900D51F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toFloat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		451004A9BABC4269B3B3BDBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register      -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Half;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		48B1FA59C34D468D8465A53D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4C0BA12A0312427D8BD67BB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		4E4E463576F24A3E829D8DB0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IlmThread","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register        -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmThread;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IlmThread";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4F4E3B46EB2F41D99AD1CEA0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register        -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Half;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4FD76137189F4300A838AC71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5B606402AADB4859BE945245 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		67098C79D1CD4C009DC6F84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register      -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toFloat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		6D74E94FF82946229AF47FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6D85FE51B28E4713B0E836CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/build";
+			};
+			name = Debug;
+		};
+		6F4EFF567B54439A843DD287 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IlmThread","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmThread;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IlmThread";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		74D855D6A571411D95EEB626 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register        -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IexMath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IexMath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7930A6B2E2444183B3F95831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		7BBCA2144FA94BE7A722AFC1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7F34DD675D844EECA7161997 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eLut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		818DB6349CB548F08BE845F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register      -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Iex;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Iex";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		884D9A95BF3540E8B9E996BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IexMath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IexMath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8EC7F7E7DA0F48B8AFDF0159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		91BA59C2C4684C2580110CE4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		961D801D518341BDBB014B8B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = package;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		98C9443D07D142219EC19C4C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9920C27EBB744AEAA58FBA03 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register        -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toFloat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9A18308026104268BB58BFBD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register        -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eLut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AB62DB0959864091BA00FFB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B0B0BD37390142D3B2112779 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/build";
+			};
+			name = Release;
+		};
+		B2CA9F44EC52411A9DE03D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IlmThread","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IlmThread;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IlmThread";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		BBB8A1319A5E472F8D1A3540 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register      -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IexMath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IexMath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BE64E1EDFD0D449DB8EDB3E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/build";
+			};
+			name = RelWithDebInfo;
+		};
+		C29ECC89BDF4448EA088A4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register      -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = eLut;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C2C7395445CB4A39BA302512 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register        -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Iex;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Iex";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C69B0C001AEC466D9581806B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk;
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/build";
+			};
+			name = MinSizeRel;
+		};
+		CC8300AC6BD949EAAAF487BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DAA36C14F1BD4224B7058123 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = toFloat;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DC5C1F22C9334CB288CC3443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DF366F560A96400FA999F930 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Imath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Imath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DFE2525EEE074687B257F876 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Iex;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Iex";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E002D90981EE44A39111A040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register      -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Imath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Imath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		F430D1F197C042F984B923CD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = IexMath;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/IexMath";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FEE5CD27E22A40879090DC1C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IexMath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath","/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config","/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/IlmThread","$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = " -Wno-switch -Wno-tautological-compare -Wno-deprecated-register     -DNDEBUG   -D PBRT_HAVE_ALLOCA_H -D PBRT_HAVE_MEMORY_H -D PBRT_HAVE_HEX_FP_CONSTANTS -D PBRT_HAVE_BINARY_CONSTANTS -D PBRT_CONSTEXPR=const -D PBRT_HAVE_ITIMER -D PBRT_HAVE_MMAP -D PBRT_NOINLINE=__attribute__\\(\\(noinline\\)\\) -D PBRT_HAVE_POSIX_MEMALIGN -D PBRT_THREAD_LOCAL=__thread -pthread";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Half;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/Half";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C6E91D83E7644D4B000050D /* Build configuration list for PBXNativeTarget "Iex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818DB6349CB548F08BE845F2 /* Debug */,
+				27A86B4051224D279E19D0B8 /* Release */,
+				DFE2525EEE074687B257F876 /* MinSizeRel */,
+				C2C7395445CB4A39BA302512 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1F7DFBB3391F41A88C6F7B47 /* Build configuration list for PBXNativeTarget "IexMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBB8A1319A5E472F8D1A3540 /* Debug */,
+				884D9A95BF3540E8B9E996BD /* Release */,
+				F430D1F197C042F984B923CD /* MinSizeRel */,
+				74D855D6A571411D95EEB626 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45B6E09507B845AB8D5AEC29 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC7F7E7DA0F48B8AFDF0159 /* Debug */,
+				6D74E94FF82946229AF47FF4 /* Release */,
+				1D2B9D7369224475A35F6A22 /* MinSizeRel */,
+				37DF2EA33FE94054B248A086 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		46E1165220334C8AAA955D18 /* Build configuration list for PBXNativeTarget "toFloat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67098C79D1CD4C009DC6F84C /* Debug */,
+				DAA36C14F1BD4224B7058123 /* Release */,
+				3A5C2C6BB5B4465F8900D51F /* MinSizeRel */,
+				9920C27EBB744AEAA58FBA03 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		48D9545E6A0D47AF846752AD /* Build configuration list for PBXNativeTarget "Imath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E002D90981EE44A39111A040 /* Debug */,
+				24D01E0D329441B2B8A5D975 /* Release */,
+				DF366F560A96400FA999F930 /* MinSizeRel */,
+				22559D9F328C43E3864BBC22 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6CFA8C6E5A91427F97068144 /* Build configuration list for PBXNativeTarget "eLut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29ECC89BDF4448EA088A4C5 /* Debug */,
+				08011A86FF38433583AC774C /* Release */,
+				7F34DD675D844EECA7161997 /* MinSizeRel */,
+				9A18308026104268BB58BFBD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		70C31D85FC1B46AF8F43E9A0 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC8300AC6BD949EAAAF487BD /* Debug */,
+				DC5C1F22C9334CB288CC3443 /* Release */,
+				5B606402AADB4859BE945245 /* MinSizeRel */,
+				31C4237A2DF843599B08DCD5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7DC855ABA8994B56808477A8 /* Build configuration list for PBXProject "ilmbase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D85FE51B28E4713B0E836CA /* Debug */,
+				B0B0BD37390142D3B2112779 /* Release */,
+				C69B0C001AEC466D9581806B /* MinSizeRel */,
+				BE64E1EDFD0D449DB8EDB3E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		917A9A6385874F21AE329E12 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB62DB0959864091BA00FFB8 /* Debug */,
+				4C0BA12A0312427D8BD67BB3 /* Release */,
+				220E038E12BD4E49AB1692AD /* MinSizeRel */,
+				91BA59C2C4684C2580110CE4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F7518711FAD4D65840789D5 /* Build configuration list for PBXAggregateTarget "package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FD76137189F4300A838AC71 /* Debug */,
+				7930A6B2E2444183B3F95831 /* Release */,
+				961D801D518341BDBB014B8B /* MinSizeRel */,
+				7BBCA2144FA94BE7A722AFC1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B770D1B073A54E0EA84B55A5 /* Build configuration list for PBXNativeTarget "IlmThread" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00C501D7C17047E4948089C0 /* Debug */,
+				B2CA9F44EC52411A9DE03D01 /* Release */,
+				6F4EFF567B54439A843DD287 /* MinSizeRel */,
+				4E4E463576F24A3E829D8DB0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C2FC004AB6DE42CF893DB8EB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2318F7A7D341409AA8C1088F /* Debug */,
+				1A65AABD418441CF986414E9 /* Release */,
+				48B1FA59C34D468D8465A53D /* MinSizeRel */,
+				98C9443D07D142219EC19C4C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB4DCE69DDC74E50B3AA3445 /* Build configuration list for PBXNativeTarget "Half" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451004A9BABC4269B3B3BDBE /* Debug */,
+				359B065206644AA1B38CDA6A /* Release */,
+				FEE5CD27E22A40879090DC1C /* MinSizeRel */,
+				4F4E3B46EB2F41D99AD1CEA0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E73D65779524744B2322639 /* Project object */;
+}

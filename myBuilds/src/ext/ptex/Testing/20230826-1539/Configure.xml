@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-clang++"
+	BuildStamp="20230826-1539-Continuous"
+	Name="Brendans-MacBook-Air.local"
+	Generator="ctest-3.24.2"
+	CompilerName="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++"
+	CompilerVersion="14.0.3.14030022"
+	OSName="macOS"
+	Hostname="Brendans-MacBook-Air.local"
+	OSRelease="13.4.1"
+	OSVersion="22F82"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="IBM"
+	VendorID="IBM"
+	FamilyID="16777228"
+	ModelID="2"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="9216"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Configure>
+		<StartDateTime>Aug 26 18:39 EEST</StartDateTime>
+		<StartConfigureTime>1693064349</StartConfigureTime>
+		<ConfigureCommand>"/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake" "/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex"</ConfigureCommand>
+		<Log>CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake &lt; 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument &lt;min&gt; value or use a ...&lt;max&gt; suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- The C compiler identification is AppleClang 14.0.3.14030022
+-- The CXX compiler identification is AppleClang 14.0.3.14030022
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ZLIB: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/lib/libz.tbd (found version "1.2.11") 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+CMake Warning (dev):
+  Policy CMP0042 is not set: MACOSX_RPATH is enabled by default.  Run "cmake
+  --help-policy CMP0042" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+
+  MACOSX_RPATH is not specified for the following targets:
+
+   Ptex_dynamic
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Build files have been written to: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex
+</Log>
+		<ConfigureStatus>0</ConfigureStatus>
+		<EndDateTime>Aug 26 18:39 EEST</EndDateTime>
+		<EndConfigureTime>1693064351</EndConfigureTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Configure>
+</Site>

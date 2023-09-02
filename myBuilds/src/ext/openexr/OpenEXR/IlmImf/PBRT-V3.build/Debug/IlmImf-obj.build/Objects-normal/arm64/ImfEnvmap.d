@@ -1,0 +1,20 @@
+dependencies: \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfEnvmap.cpp \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfEnvmap.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathBox.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathVec.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathExc.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathNamespace.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config/IlmBaseConfig.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexBaseExc.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexNamespace.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexExport.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathExport.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathLimits.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathMath.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathPlatform.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfNamespace.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/OpenEXR/config/OpenEXRConfig.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfExport.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathFun.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathInt64.h

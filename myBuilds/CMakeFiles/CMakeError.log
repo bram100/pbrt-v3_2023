@@ -1,0 +1,1215 @@
+Performing C++ SOURCE FILE Test HAVE_CONSTEXPR failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_90239 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:39.314 xcodebuild[60303:23628560] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_90239 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 15ae77ef238b38ecf6de5fa8a5c8f6ce
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/15ae77ef238b38ecf6de5fa8a5c8f6ce.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/Objects-normal/arm64/cmTC_90239.LinkFileList (in target 'cmTC_90239' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/Objects-normal/arm64/cmTC_90239.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_90239' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_CONSTEXPR -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:1:14: error: unknown type name 'constexpr'
+int main() { constexpr int x = 0; }
+             ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_90239.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_90239' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+int main() { constexpr int x = 0; }
+Performing C++ SOURCE FILE Test HAVE_ALIGNAS failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_aff22 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:40.277 xcodebuild[60320:23628664] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_aff22 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: c9b8a8f958e51e1d7ceb99f51431fae5
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/c9b8a8f958e51e1d7ceb99f51431fae5.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/Objects-normal/arm64/cmTC_aff22.LinkFileList (in target 'cmTC_aff22' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/Objects-normal/arm64/cmTC_aff22.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_aff22' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_ALIGNAS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:1:16: error: expected unqualified-id
+struct alignas(32) Foo { char x; }; int main() { }
+               ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:1:16: error: expected ')'
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:1:15: note: to match this '('
+struct alignas(32) Foo { char x; }; int main() { }
+              ^
+2 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_aff22.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_aff22' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+struct alignas(32) Foo { char x; }; int main() { }
+Performing C++ SOURCE FILE Test HAVE_ALIGNOF failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_29e3c -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:41.569 xcodebuild[60337:23628766] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_29e3c -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 60f5c55c5a9882807cc79aa8c4a03c0e
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/60f5c55c5a9882807cc79aa8c4a03c0e.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/Objects-normal/arm64/cmTC_29e3c.LinkFileList (in target 'cmTC_29e3c' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/Objects-normal/arm64/cmTC_29e3c.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_29e3c' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_ALIGNOF -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:1:36: error: expected '(' for function-style cast or type construction
+int main() { int x = alignof(double); }
+                             ~~~~~~^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_29e3c.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_29e3c' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+int main() { int x = alignof(double); }
+Performing C++ SOURCE FILE Test HAVE_NONPOD_IN_UNIONS failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_bd9c9 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:43.573 xcodebuild[60374:23628982] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_bd9c9 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: c5cdf04b6003e441bfc50d34245e3854
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/c5cdf04b6003e441bfc50d34245e3854.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/Objects-normal/arm64/cmTC_bd9c9.LinkFileList (in target 'cmTC_bd9c9' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/Objects-normal/arm64/cmTC_bd9c9.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_bd9c9' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_NONPOD_IN_UNIONS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:3:37: error: union member 'b' has a non-trivial default constructor
+struct Foo { union { int x[10]; Bar b; }; Foo() : b() { } };
+                                    ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:2:21: note: because type 'Bar' has a user-provided default constructor
+class Bar { public: Bar() { x = 0; } float x; };
+                    ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:3:51: error: member initializer 'b' does not name a non-static data member or base class
+struct Foo { union { int x[10]; Bar b; }; Foo() : b() { } };
+                                                  ^~~
+2 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_bd9c9.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_bd9c9' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+class Bar { public: Bar() { x = 0; } float x; };
+struct Foo { union { int x[10]; Bar b; }; Foo() : b() { } };
+int main() { Foo f; }
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4bcbd -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:45.308 xcodebuild[60411:23629183] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4bcbd -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 739af41b3bdc9e582d5c779713606a08
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/739af41b3bdc9e582d5c779713606a08.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/Objects-normal/arm64/cmTC_4bcbd.LinkFileList (in target 'cmTC_4bcbd' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/Objects-normal/arm64/cmTC_4bcbd.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4bcbd' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_DECLSPEC_NOINLINE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:1:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(noinline) void foo() { }
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4bcbd.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4bcbd' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+__declspec(noinline) void foo() { }
+int main() { }
+Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_7bb01 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:47.448 xcodebuild[60452:23629421] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_7bb01 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 71a3782260407f3f70cd663deb81fed1
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/71a3782260407f3f70cd663deb81fed1.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/Objects-normal/arm64/cmTC_7bb01.LinkFileList (in target 'cmTC_7bb01' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/Objects-normal/arm64/cmTC_7bb01.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_7bb01' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE__ALIGNED_MALLOC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7bb01.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_7bb01' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+#include <malloc.h>
+int main() { void * ptr = _aligned_malloc(1024, 32); }
+
+Performing C++ SOURCE FILE Test HAVE_MEMALIGN failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_91f4f -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:49.191 xcodebuild[60488:23629613] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_91f4f -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 6d31f7b868c95e5631633a7c956f1e7c
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/6d31f7b868c95e5631633a7c956f1e7c.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/Objects-normal/arm64/cmTC_91f4f.LinkFileList (in target 'cmTC_91f4f' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/Objects-normal/arm64/cmTC_91f4f.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_91f4f' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_MEMALIGN -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_91f4f.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_91f4f' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+#include <malloc.h>
+int main() {
+    void *ptr = memalign(32, 1024);
+} 
+Performing C++ SOURCE FILE Test HAVE_THREAD_LOCAL failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9634d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:49.985 xcodebuild[60504:23629696] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_9634d -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 9908431d7dada03896196d8cf920036c
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/9908431d7dada03896196d8cf920036c.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/Objects-normal/arm64/cmTC_9634d.LinkFileList (in target 'cmTC_9634d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/Objects-normal/arm64/cmTC_9634d.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_9634d' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_THREAD_LOCAL -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:6:1: error: unknown type name 'thread_local'
+thread_local int x; int main() { }
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_9634d.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_9634d' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+#ifdef __CYGWIN__
+// Hack to work around https://gcc.gnu.org/bugzilla/show_bug.cgi?id=64697
+#error "No thread_local on cygwin"
+#endif  // __CYGWIN__
+thread_local int x; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d7887 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:50.790 xcodebuild[60521:23629787] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_d7887 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: c5a5d979452d656bd024c6b68e6d53b4
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/c5a5d979452d656bd024c6b68e6d53b4.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/Objects-normal/arm64/cmTC_d7887.LinkFileList (in target 'cmTC_d7887' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/Objects-normal/arm64/cmTC_d7887.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_d7887' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_DECLSPEC_THREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(thread) int x; int main() { }
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d7887.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_d7887' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+__declspec(thread) int x; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_INLINE_ASM_AVX failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_87e62 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:20:53.429 xcodebuild[60558:23629993] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_87e62 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: ad676a4a42c6d6fea4e4bb2683097bfa
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/ad676a4a42c6d6fea4e4bb2683097bfa.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/Objects-normal/arm64/cmTC_87e62.LinkFileList (in target 'cmTC_87e62' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/Objects-normal/arm64/cmTC_87e62.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_87e62' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE_GCC_INLINE_ASM_AVX -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -Wno-switch -Wno-tautological-compare -Wno-deprecated-register -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:13:5: error: No GCC style inline asm supported for AVX instructions
+                 #error No GCC style inline asm supported for AVX instructions
+                  ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87e62.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_87e62' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+	int main()
+	{
+	 #if defined(__GNUC__) && defined(__SSE2__)
+		 int n   = 0;
+		 int eax = 0;
+		 int edx = 0;
+		 __asm__(
+			 "xgetbv     ;"
+			 "vzeroupper  "
+			 : "=a"(eax), "=d"(edx) : "c"(n) : );
+	 #else
+		 #error No GCC style inline asm supported for AVX instructions
+	 #endif
+	}
+	
+Determining if the include file syscall.h exists failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06df5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:21:13.473 xcodebuild[60874:23632034] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_06df5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 39c3ac977be0ce65ba71461aadaeb525
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/39c3ac977be0ce65ba71461aadaeb525.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/Objects-normal/arm64/cmTC_06df5.LinkFileList (in target 'cmTC_06df5' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/Objects-normal/arm64/cmTC_06df5.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_06df5' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/Objects-normal/arm64/CheckIncludeFile.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'syscall.h' file not found
+#include <syscall.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06df5.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_06df5' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+
+Determining if the include file ucontext.h exists failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_64f34 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:21:15.202 xcodebuild[60906:23632240] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_64f34 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 1072597be1886aad18d54b197cf2ccd0
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/1072597be1886aad18d54b197cf2ccd0.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/Objects-normal/arm64/cmTC_64f34.LinkFileList (in target 'cmTC_64f34' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/Objects-normal/arm64/cmTC_64f34.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_64f34' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/Objects-normal/arm64/CheckIncludeFile.o
+In file included from /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/ucontext.h:51:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_64f34.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_64f34' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+
+Determining if the include file ext/slist exists failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_a6f88 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:21:21.325 xcodebuild[61007:23633000] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_a6f88 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 97d716ccbb796f80b5aa1ca358715a82
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/97d716ccbb796f80b5aa1ca358715a82.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/Objects-normal/arm64/cmTC_a6f88.LinkFileList (in target 'cmTC_a6f88' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/Objects-normal/arm64/cmTC_a6f88.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_a6f88' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/Objects-normal/arm64/CheckIncludeFile.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ext/slist' file not found
+#include <ext/slist>
+         ^~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_a6f88.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_a6f88' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+
+Determining if the include file tr1/unordered_map exists failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_75ae5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:21:22.113 xcodebuild[61023:23633087] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_75ae5 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: a8f9d12cbafebae5f84f03fac87661d4
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/a8f9d12cbafebae5f84f03fac87661d4.xcbuilddata
+
+note: Building targets in dependency order
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/Objects-normal/arm64/cmTC_75ae5.LinkFileList (in target 'cmTC_75ae5' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/Objects-normal/arm64/cmTC_75ae5.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_75ae5' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/Objects-normal/arm64/CheckIncludeFile.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_map' file not found
+#include <tr1/unordered_map>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_75ae5.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_75ae5' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+
+Determining if the include file tr1/unordered_set exists failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_55919 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:21:23.074 xcodebuild[61040:23633186] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_55919 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 3bd6f71946700de09065626460528bc7
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/3bd6f71946700de09065626460528bc7.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/Objects-normal/arm64/cmTC_55919.LinkFileList (in target 'cmTC_55919' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/Objects-normal/arm64/cmTC_55919.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_55919' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/Objects-normal/arm64/CheckIncludeFile.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/Objects-normal/arm64/CheckIncludeFile.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/Objects-normal/arm64/CheckIncludeFile.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_set' file not found
+#include <tr1/unordered_set>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_55919.build/Objects-normal/arm64/CheckIncludeFile.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_55919' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_eea94 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:21:27.452 xcodebuild[61112:23633659] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_eea94 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 2d18572c00937b01e320989daf7e7c24
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/2d18572c00937b01e320989daf7e7c24.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/Objects-normal/arm64/cmTC_eea94.LinkFileList (in target 'cmTC_eea94' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/Objects-normal/arm64/cmTC_eea94.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/Objects-normal/arm64/HAVE___UINT16.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_eea94' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/Objects-normal/arm64/HAVE___UINT16.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/Objects-normal/arm64/HAVE___UINT16.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/Objects-normal/arm64/HAVE___UINT16.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: error: expected ')'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: note: to match this '('
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:30:12: error: expected ')'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:30:12: note: to match this '('
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:31:12: error: expected ')'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:31:12: note: to match this '('
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:32:12: error: expected ')'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:32:12: note: to match this '('
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:33:12: error: expected ')'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:33:12: note: to match this '('
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+5 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eea94.build/Objects-normal/arm64/HAVE___UINT16.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_eea94' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3ab63 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:21:40.110 xcodebuild[61330:23634953] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_3ab63 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 3264058d8ac28ca5c0eca87d3ae3c9a8
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/3264058d8ac28ca5c0eca87d3ae3c9a8.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/Objects-normal/arm64/cmTC_3ab63.LinkFileList (in target 'cmTC_3ab63' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/Objects-normal/arm64/cmTC_3ab63.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/Objects-normal/arm64/CheckFunctionExists.o /opt/homebrew/Cellar/cmake/3.24.2/share/cmake/Modules/CheckFunctionExists.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_3ab63' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS\=get_static_proc_name -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/Objects-normal/arm64/CheckFunctionExists.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/Objects-normal/arm64/CheckFunctionExists.dia -c /opt/homebrew/Cellar/cmake/3.24.2/share/cmake/Modules/CheckFunctionExists.c -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/Objects-normal/arm64/CheckFunctionExists.o
+
+Ld /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/cmTC_3ab63 normal (in target 'cmTC_3ab63' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos13.3 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -L/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug -L/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -filelist /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/Objects-normal/arm64/cmTC_3ab63.LinkFileList -Xlinker -object_path_lto -Xlinker /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/Objects-normal/arm64/cmTC_3ab63_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lunwind -Xlinker -dependency_info -Xlinker /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3ab63.build/Objects-normal/arm64/cmTC_3ab63_dependency_info.dat -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/cmTC_3ab63
+ld: library not found for -lunwind
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/cmTC_3ab63 normal (in target 'cmTC_3ab63' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4e249 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:21:47.132 xcodebuild[61449:23635739] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_4e249 -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: e037caba8ae76d93cec91fd9cf1593b0
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/e037caba8ae76d93cec91fd9cf1593b0.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/Objects-normal/arm64/cmTC_4e249.LinkFileList (in target 'cmTC_4e249' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/Objects-normal/arm64/cmTC_4e249.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4e249' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DHAVE___DECLSPEC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.c -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.c:2:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(selectany) int a;
+^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4e249.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_4e249' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b980f -parallelizeTargets -configuration Debug -hideShellScriptEnvironment && 2023-08-26 18:21:48.111 xcodebuild[61469:23635859] DVTCoreDeviceEnabledState: DVTCoreDeviceEnabledState_Disabled set via user default (DVTEnableCoreDevice=disabled)
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project CMAKE_TRY_COMPILE.xcodeproj build -target cmTC_b980f -parallelizeTargets -configuration Debug -hideShellScriptEnvironment
+
+User defaults from command line:
+    HideShellScriptEnvironment = YES
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Computing target dependency graph and provisioning inputs
+
+Create build description
+Build description signature: 94a4925bad3ddaa28751c155051141d7
+Build description path: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/build/XCBuildData/94a4925bad3ddaa28751c155051141d7.xcbuilddata
+
+note: Building targets in dependency order
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug
+
+CreateBuildDirectory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.xcodeproj
+    builtin-create-build-directory /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/Objects-normal/arm64/cmTC_b980f.LinkFileList (in target 'cmTC_b980f' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    write-file /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/Objects-normal/arm64/cmTC_b980f.LinkFileList
+
+CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_b980f' from project 'CMAKE_TRY_COMPILE')
+    cd /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -ivfsstatcache /var/folders/yp/8zy4xr_j3fs263bhhg92yz540000gn/C/com.apple.DeveloperTools/14.3.1-14E300c/Xcode/SDKStatCaches.noindex/macosx13.3-22E245-.sdkstatcache -target arm64-apple-macos13.3 -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -Wno-implicit-fallthrough -DCMAKE_INTDIR\=\"Debug\" -DSTL_NO_NAMESPACE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug/include -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/DerivedSources-normal/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/DerivedSources/arm64 -I/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/DerivedSources -F/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/Objects-normal/arm64/src.d --serialize-diagnostics /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/Objects-normal/arm64/src.dia -c /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx -o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/Objects-normal/arm64/src.o
+/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
+vector<int> t; int main() { }
+^~~~~~
+std::vector
+In file included from /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx:2:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/vector:340:28: note: 'std::vector' declared here
+class _LIBCPP_TEMPLATE_VIS vector
+                           ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b980f.build/Objects-normal/arm64/src.o /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/CMakeFiles/CMakeTmp/src.cxx normal arm64 c++ com.apple.compilers.llvm.clang.1_0.compiler (in target 'cmTC_b980f' from project 'CMAKE_TRY_COMPILE')
+(1 failure)
+
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+

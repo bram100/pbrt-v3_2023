@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfCompressor.cpp \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfCompressor.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfCompression.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfNamespace.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/OpenEXR/config/OpenEXRConfig.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathBox.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathVec.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathExc.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathNamespace.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/openexr/IlmBase/config/IlmBaseConfig.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexBaseExc.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexNamespace.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexExport.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathExport.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathLimits.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathMath.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathPlatform.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfExport.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfForward.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfRleCompressor.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfZipCompressor.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfZip.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfPizCompressor.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfPxr24Compressor.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfB44Compressor.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfDwaCompressor.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/half.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Half/halfExport.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfInt64.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Imath/ImathInt64.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfChannelList.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfName.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfPixelType.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/OpenEXR/IlmImf/ImfCheckedArithmetic.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/openexr/IlmBase/Iex/IexMathExc.h

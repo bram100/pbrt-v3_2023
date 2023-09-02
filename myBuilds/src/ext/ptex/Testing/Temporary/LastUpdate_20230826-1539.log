@@ -1,0 +1,21 @@
+--- Begin Cleanup ---
+--- End Cleanup ---
+"/opt/homebrew/bin/git" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> 4cd8e9a6db2b06e478dfbbd8c26eb6df97f84483
+--- Begin Update ---
+"/opt/homebrew/bin/git" "fetch"
+"/opt/homebrew/bin/git" "rev-parse" "--git-dir"
+rev-parse-out> /Users/brendanmulcahey/Documents/pbrt-v3_2023/.git/modules/src/ext/ptex
+FETCH_HEAD> 4ed27382a7bba7754e248e25ebf6afa9b123c6d5	not-for-merge	branch 'gh-pages' of https://github.com/wdas/ptex
+FETCH_HEAD> ea6890e041c3889ff7cb80a8546d2a3b6b8804bf	not-for-merge	branch 'main' of https://github.com/wdas/ptex
+FETCH_HEAD> 6b74a219d31ed31cb9e28b8363c7ca16f32d3f49	not-for-merge	branch 'newcache' of https://github.com/wdas/ptex
+FETCH_HEAD has no upstream branch candidate!
+--- End Update ---
+"/opt/homebrew/bin/git" "rev-list" "-n" "1" "HEAD" "--"
+rl-out> 4cd8e9a6db2b06e478dfbbd8c26eb6df97f84483
+--- Begin Revisions ---
+"/opt/homebrew/bin/git" "rev-list" "--reverse" "4cd8e9a6db2b06e478dfbbd8c26eb6df97f84483..4cd8e9a6db2b06e478dfbbd8c26eb6df97f84483" "--" | "/opt/homebrew/bin/git" "diff-tree" "--stdin" "--always" "-z" "-r" "--pretty=raw" "--encoding=utf-8"
+dt-out> 
+"/opt/homebrew/bin/git" "update-index" "--refresh"
+"/opt/homebrew/bin/git" "diff-index" "-z" "HEAD" "--"
+--- End Revisions ---

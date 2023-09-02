@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20230826-1539-Continuous"
+	Name="Brendans-MacBook-Air.local"
+	Generator="ctest-3.24.2"
+	CompilerName="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++"
+	CompilerVersion="14.0.3.14030022"
+	OSName="macOS"
+	Hostname="Brendans-MacBook-Air.local"
+	OSRelease="13.4.1"
+	OSVersion="22F82"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="IBM"
+	VendorID="IBM"
+	FamilyID="16777228"
+	ModelID="2"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="9216"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Aug 26 18:39 EEST</StartDateTime>
+		<StartTestTime>1693064361</StartTestTime>
+		<TestList>
+			<Test>./src/tests/wtest</Test>
+			<Test>./src/tests/rtest</Test>
+			<Test>./src/tests/ftest</Test>
+			<Test>./src/tests/halftest</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>wtest</Name>
+			<Path>./src/tests</Path>
+			<FullName>./src/tests/wtest</FullName>
+			<FullCommandLine>/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/wtest</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0244995</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/wtest</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value></Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>rtest</Name>
+			<Path>./src/tests</Path>
+			<FullName>./src/tests/rtest</FullName>
+			<FullCommandLine>/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake "-DOUT=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/rtest.out" "-DDATA=/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/rtestok.dat" "-DCMD=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/rtest" "-P" "/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/compare_test.cmake"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0159158</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake "-DOUT=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/rtest.out" "-DDATA=/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/rtestok.dat" "-DCMD=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/rtest" "-P" "/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/compare_test.cmake"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1jUsKwkAQBfeeoi9gWpKdS/EEgmuZzDQkmJke+hOT25t4AMGFq+JB8ermBfCuJIq9UEmhZJ9iGGjFK0fPVEyx9mLHuXu0p7bDvF58nJKiSkRaDKvR8hlGusmyA4yhCiePdP7Hf8NuEEqCyLkGIXiNNvxa+hbgZ5OCHd6OrWmr====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>ftest</Name>
+			<Path>./src/tests</Path>
+			<FullName>./src/tests/ftest</FullName>
+			<FullCommandLine>/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake "-DOUT=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/ftest.out" "-DDATA=/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/ftestok.dat" "-DCMD=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/ftest" "-P" "/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/compare_test.cmake"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0119276</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake "-DOUT=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/ftest.out" "-DDATA=/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/ftestok.dat" "-DCMD=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/ftest" "-P" "/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/compare_test.cmake"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJy1jUsKwkAQBfeeoi9gWpKdS/EEgmuZzHRIMDM99EeT2/s5gOAiq+JB8eriBfCqJIq9UEmhZJ9jGGnFM0fPVEyx9mL7R3drD22HeT35NCdFlYi0GFaj5TuM9C0PH4AxVOHkkY5b/DfsBqEkiJxrEILnZOO/pV8Bvjcp2O4Ff2Vphw==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>halftest</Name>
+			<Path>./src/tests</Path>
+			<FullName>./src/tests/halftest</FullName>
+			<FullCommandLine>/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/halftest</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0159152</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/halftest</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJx1jzEOwjAMRfecIicIOyNDJRaQ4ARuklILY0eNC+L2NEMiiuj2/d//ttyRgO6CzD1F6+WRQLFHQn0750y3SW2CnGMw5ppErR+jv+fS+Bpb5IABp+gVhYGWNfyMU16Gkt9irXzkAbkcXPf+2K1yAv5Jr50WPC/GQPIqkaobvMjMAflWYNUNjkCDxqx7C0S2qPquMx8PTHjM====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Aug 26 18:39 EEST</EndDateTime>
+		<EndTestTime>1693064361</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

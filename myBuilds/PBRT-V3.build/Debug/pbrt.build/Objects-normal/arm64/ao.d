@@ -1,0 +1,35 @@
+dependencies: \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/integrators/ao.cpp \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/integrators/ao.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/pbrt.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/error.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/glog/glog/logging.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/glog/src/glog/log_severity.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/glog/glog/vlog_is_on.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/integrator.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/primitive.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/shape.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/geometry.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/stringprint.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/interaction.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/transform.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/quaternion.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/medium.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/spectrum.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/material.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/memory.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/light.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/reflection.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/microfacet.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/sampler.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/rng.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/sampling.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/paramset.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/fileutil.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/texture.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/camera.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/film.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/filter.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/stats.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/parallel.h \
+  /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/core/scene.h

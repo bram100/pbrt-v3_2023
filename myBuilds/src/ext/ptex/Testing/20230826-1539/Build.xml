@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Darwin-c++"
+	BuildStamp="20230826-1539-Continuous"
+	Name="Brendans-MacBook-Air.local"
+	Generator="ctest-3.24.2"
+	CompilerName="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++"
+	CompilerVersion="14.0.3.14030022"
+	OSName="macOS"
+	Hostname="Brendans-MacBook-Air.local"
+	OSRelease="13.4.1"
+	OSVersion="22F82"
+	OSPlatform="arm64"
+	Is64Bits="1"
+	VendorString="IBM"
+	VendorID="IBM"
+	FamilyID="16777228"
+	ModelID="2"
+	ProcessorCacheSize="131072"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="9216"
+	TotalPhysicalMemory="8192"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Build>
+		<StartDateTime>Aug 26 18:39 EEST</StartDateTime>
+		<StartBuildTime>1693064351</StartBuildTime>
+		<BuildCommand>/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake --build . --config "Debug" -- -i</BuildCommand>
+		<Warning>
+			<BuildLogLine>3</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexCache.h:289:21: warning: zero size arrays are an extension [-Wzero-length-array]</Text>
+			<SourceFile>src/ptex/PtexCache.h</SourceFile>
+			<SourceLineNumber>289</SourceLineNumber>
+			<PreContext>[  3%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexCache.cpp.o
+In file included from /.../ptex/src/ptex/PtexCache.cpp:78:
+</PreContext>
+			<PostContext>    Mutex _mruLock; CACHE_LINE_PAD(_mruLock,Mutex);
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>6</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexPlatform.h:288:49: note: expanded from macro 'CACHE_LINE_PAD'</Text>
+			<SourceFile>src/ptex/PtexPlatform.h</SourceFile>
+			<SourceLineNumber>288</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>#define CACHE_LINE_PAD(var,type) char var##_pad[CACHE_LINE_SIZE - sizeof(type)]
+                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>9</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexPlatform.h:285:25: note: expanded from macro 'CACHE_LINE_SIZE'</Text>
+			<SourceFile>src/ptex/PtexPlatform.h</SourceFile>
+			<SourceLineNumber>285</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>#define CACHE_LINE_SIZE 64
+                        ^
+1 warning generated.
+[  6%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexFilters.cpp.o
+[  9%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexHalf.cpp.o
+[ 12%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexReader.cpp.o
+[ 15%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexSeparableFilter.cpp.o
+[ 18%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexSeparableKernel.cpp.o
+[ 21%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexTriangleFilter.cpp.o
+[ 25%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexTriangleKernel.cpp.o</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>21</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexUtils.cpp:51:22: warning: result of comparison of constant 2 with expression of type 'Ptex::v2_2::MeshType' is always false [-Wtautological-constant-out-of-range-compare]</Text>
+			<SourceFile>src/ptex/PtexUtils.cpp</SourceFile>
+			<SourceLineNumber>51</SourceLineNumber>
+			<PreContext>[ 28%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexUtils.cpp.o
+</PreContext>
+			<PostContext>    if (mt &lt; 0 || mt &gt;= int(sizeof(names)/sizeof(const char*)))
+                  ~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>24</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexUtils.cpp:60:22: warning: result of comparison of constant 4 with expression of type 'Ptex::v2_2::DataType' is always false [-Wtautological-constant-out-of-range-compare]</Text>
+			<SourceFile>src/ptex/PtexUtils.cpp</SourceFile>
+			<SourceLineNumber>60</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>    if (dt &lt; 0 || dt &gt;= int(sizeof(names)/sizeof(const char*)))
+                  ~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>27</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexUtils.cpp:77:20: warning: result of comparison of constant 2 with expression of type 'Ptex::v2_2::EdgeFilterMode' is always false [-Wtautological-constant-out-of-range-compare]</Text>
+			<SourceFile>src/ptex/PtexUtils.cpp</SourceFile>
+			<SourceLineNumber>77</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>    if (m &lt; 0 || m &gt;= int(sizeof(names)/sizeof(const char*)))
+                 ~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>30</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexUtils.cpp:86:24: warning: result of comparison of constant 4 with expression of type 'Ptex::v2_2::EdgeId' is always false [-Wtautological-constant-out-of-range-compare]</Text>
+			<SourceFile>src/ptex/PtexUtils.cpp</SourceFile>
+			<SourceLineNumber>86</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>    if (eid &lt; 0 || eid &gt;= int(sizeof(names)/sizeof(const char*)))
+                   ~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+[ 31%] Building CXX object src/ptex/CMakeFiles/Ptex_static.dir/PtexWriter.cpp.o
+[ 34%] Linking CXX static library libPtex.a
+[ 34%] Built target Ptex_static
+[ 37%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexCache.cpp.o
+In file included from /.../ptex/src/ptex/PtexCache.cpp:78:
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>39</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexCache.h:289:21: warning: zero size arrays are an extension [-Wzero-length-array]</Text>
+			<SourceFile>src/ptex/PtexCache.h</SourceFile>
+			<SourceLineNumber>289</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>    Mutex _mruLock; CACHE_LINE_PAD(_mruLock,Mutex);
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>42</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexPlatform.h:288:49: note: expanded from macro 'CACHE_LINE_PAD'</Text>
+			<SourceFile>src/ptex/PtexPlatform.h</SourceFile>
+			<SourceLineNumber>288</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>#define CACHE_LINE_PAD(var,type) char var##_pad[CACHE_LINE_SIZE - sizeof(type)]
+                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>45</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexPlatform.h:285:25: note: expanded from macro 'CACHE_LINE_SIZE'</Text>
+			<SourceFile>src/ptex/PtexPlatform.h</SourceFile>
+			<SourceLineNumber>285</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>#define CACHE_LINE_SIZE 64
+                        ^
+1 warning generated.
+[ 40%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexFilters.cpp.o
+[ 43%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexHalf.cpp.o
+[ 46%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexReader.cpp.o
+[ 50%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexSeparableFilter.cpp.o
+[ 53%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexSeparableKernel.cpp.o
+[ 56%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexTriangleFilter.cpp.o
+[ 59%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexTriangleKernel.cpp.o</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>57</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexUtils.cpp:51:22: warning: result of comparison of constant 2 with expression of type 'Ptex::v2_2::MeshType' is always false [-Wtautological-constant-out-of-range-compare]</Text>
+			<SourceFile>src/ptex/PtexUtils.cpp</SourceFile>
+			<SourceLineNumber>51</SourceLineNumber>
+			<PreContext>[ 62%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexUtils.cpp.o
+</PreContext>
+			<PostContext>    if (mt &lt; 0 || mt &gt;= int(sizeof(names)/sizeof(const char*)))
+                  ~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>60</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexUtils.cpp:60:22: warning: result of comparison of constant 4 with expression of type 'Ptex::v2_2::DataType' is always false [-Wtautological-constant-out-of-range-compare]</Text>
+			<SourceFile>src/ptex/PtexUtils.cpp</SourceFile>
+			<SourceLineNumber>60</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>    if (dt &lt; 0 || dt &gt;= int(sizeof(names)/sizeof(const char*)))
+                  ~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>63</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexUtils.cpp:77:20: warning: result of comparison of constant 2 with expression of type 'Ptex::v2_2::EdgeFilterMode' is always false [-Wtautological-constant-out-of-range-compare]</Text>
+			<SourceFile>src/ptex/PtexUtils.cpp</SourceFile>
+			<SourceLineNumber>77</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>    if (m &lt; 0 || m &gt;= int(sizeof(names)/sizeof(const char*)))
+                 ~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Warning>
+			<BuildLogLine>66</BuildLogLine>
+			<Text>/.../ptex/src/ptex/PtexUtils.cpp:86:24: warning: result of comparison of constant 4 with expression of type 'Ptex::v2_2::EdgeId' is always false [-Wtautological-constant-out-of-range-compare]</Text>
+			<SourceFile>src/ptex/PtexUtils.cpp</SourceFile>
+			<SourceLineNumber>86</SourceLineNumber>
+			<PreContext></PreContext>
+			<PostContext>    if (eid &lt; 0 || eid &gt;= int(sizeof(names)/sizeof(const char*)))
+                   ~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+4 warnings generated.
+[ 65%] Building CXX object src/ptex/CMakeFiles/Ptex_dynamic.dir/PtexWriter.cpp.o
+[ 68%] Linking CXX shared library libPtex.dylib
+[ 68%] Built target Ptex_dynamic
+[ 71%] Building CXX object src/utils/CMakeFiles/ptxinfo.dir/ptxinfo.cpp.o
+[ 75%] Linking CXX executable ptxinfo
+[ 75%] Built target ptxinfo
+[ 78%] Building CXX object src/tests/CMakeFiles/wtest.dir/wtest.cpp.o</PostContext>
+			<RepeatCount>0</RepeatCount>
+		</Warning>
+		<Log Encoding="base64" Compression="bin/gzip"/>
+		<EndDateTime>Aug 26 18:39 EEST</EndDateTime>
+		<EndBuildTime>1693064361</EndBuildTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Build>
+</Site>

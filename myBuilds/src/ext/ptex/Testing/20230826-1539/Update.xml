@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Update mode="Client" Generator="ctest-3.24.2">
+	<Site>Brendans-MacBook-Air.local</Site>
+	<BuildName>Darwin-clang++</BuildName>
+	<BuildStamp>20230826-1539-Continuous</BuildStamp>
+	<StartDateTime>Aug 26 18:39 EEST</StartDateTime>
+	<StartTime>1693064348</StartTime>
+	<UpdateCommand>"/opt/homebrew/bin/git" "fetch"</UpdateCommand>
+	<UpdateType>GIT</UpdateType>
+	<Revision>4cd8e9a6db2b06e478dfbbd8c26eb6df97f84483</Revision>
+	<EndDateTime>Aug 26 18:39 EEST</EndDateTime>
+	<EndTime>1693064349</EndTime>
+	<ElapsedMinutes>0</ElapsedMinutes>
+	<UpdateReturnStatus>Update command failed:
+"/opt/homebrew/bin/git" "fetch"</UpdateReturnStatus>
+</Update>

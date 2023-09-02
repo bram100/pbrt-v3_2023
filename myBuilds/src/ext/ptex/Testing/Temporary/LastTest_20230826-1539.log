@@ -1,0 +1,87 @@
+Start testing: Aug 26 18:39 EEST
+----------------------------------------------------------
+1/4 Testing: wtest
+1/4 Test: wtest
+Command: "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/wtest"
+Directory: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests
+"wtest" start time: Aug 26 18:39 EEST
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"wtest" end time: Aug 26 18:39 EEST
+"wtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: rtest
+2/4 Test: rtest
+Command: "/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake" "-DOUT=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/rtest.out" "-DDATA=/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/rtestok.dat" "-DCMD=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/rtest" "-P" "/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/compare_test.cmake"
+Directory: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests
+"rtest" start time: Aug 26 18:39 EEST
+Output:
+----------------------------------------------------------
+Run /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/rtest to produce: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/rtest.out and compare with: /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/rtestok.dat
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"rtest" end time: Aug 26 18:39 EEST
+"rtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: ftest
+3/4 Test: ftest
+Command: "/opt/homebrew/Cellar/cmake/3.24.2/bin/cmake" "-DOUT=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/ftest.out" "-DDATA=/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/ftestok.dat" "-DCMD=/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/ftest" "-P" "/Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/compare_test.cmake"
+Directory: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests
+"ftest" start time: Aug 26 18:39 EEST
+Output:
+----------------------------------------------------------
+Run /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/ftest to produce: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/ftest.out and compare with: /Users/brendanmulcahey/Documents/pbrt-v3_2023/src/ext/ptex/src/tests/ftestok.dat
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ftest" end time: Aug 26 18:39 EEST
+"ftest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/4 Testing: halftest
+4/4 Test: halftest
+Command: "/Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests/halftest"
+Directory: /Users/brendanmulcahey/Documents/pbrt-v3_2023/myBuilds/src/ext/ptex/src/tests
+"halftest" start time: Aug 26 18:39 EEST
+Output:
+----------------------------------------------------------
+Float/double compatibility...
+Float/double compatibility passed
+
+Spot checks...
+Spot checks passed
+
+Bidirectional conversion...
+Bidirectional conversion passed
+
+Infinity conversion...
+Infinity conversion passed
+
+Nan conversion...
+Nan conversion passed
+
+Overflow...
+Overflow passed
+
+Rounding...
+Rounding passed
+
+halftest: all tests passed.
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"halftest" end time: Aug 26 18:39 EEST
+"halftest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 26 18:39 EEST
